@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)file:///Users/thaisthompson/Documents/SheCodes/SheCodes%20Plus/Week%202%20copy/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link href="./Weather App_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Weather App_files/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./Weather App_files/css2" rel="stylesheet">
+<script src="./Weather App_files/app.js">
+
+  let firstName = prompt("What is your first name?");
+if (firstName.length > 0) {
+  alert(`Welcome ${firstName}!`);
+} else {
+  alert("Too bad for you");
+}
+  
+
+</script>
+  </head><body>
+  
+    
+<div class="wrapper">
+  <div class="container">
+    <form>
+      <div class="row">
+        <div class="col-9">
+          <input type="search" placeholder="Enter City...." class="form-control shadow-sm">
+        </div>
+        <div class="col-3">
+          <input type="submit" value="Search" class="form-control btn btn-primary shadow-sm"> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+         <img src="./Weather App_files/sunny.png" alt="" class="float-left">          
+        <span class="temperature">56 </span> 
+        <span class="units">°C |°F</span>
+        </div>
+        <div class="col-4"> 
+          <ul>
+            <li> Precipitation: 57%</li>
+            <li>Humidity: 57%</li>
+            <li>Wind: 4 mph</li>
+          </ul>
+        </div>
+         
+        <div class="col-4 city-state">
+            <ul>
+              <li class="city"> 
+                <div class="selected-city">
+                   Queens, NY
+                </div>
+              </li>
+              <li>Saturday 9:00 PM </li>
+                <li>Cloudy</li>
+            </ul>
+          </div>
+           
+
+<div class="forecast">
+      <div class="row days">
+        <div class="col">Sunday</div>
+        <div class="col">Monday</div>
+        <div class="col">Tuesday</div>
+        <div class="col">Wednesday</div>
+        <div class="col">Thursday</div> 
+        <div class="col">Friday</div>
+</div>
+        <div class="row weather-emojis"> 
+        <div class="col">🌧</div>
+        <div class="col">⛈</div>
+        <div class="col">☀️</div>
+        <div class="col">⛅️</div>
+        <div class="col">🌧</div> 
+        <div class="col">⛅️</div> 
+      </div>
+       <div class="row low-high">
+        <div class="col">58° 65°</div>
+        <div class="col">58° 65°</div>
+        <div class="col">58° 65°</div>
+        <div class="col">58° 65°</div>
+        <div class="col">58° 65°</div> 
+        <div class="col">58° 65°</div>
+    </div>
+    </div>
+    </div>
+    </form></div>
+
+
+  
+  
+
+</div></body></html>
